@@ -1,0 +1,13 @@
+{
+  "name": "dummy-repo",
+  "version": "1.0.0",
+  "description": "nvm this is dummy repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eduard Novik",
+  "license": "ISC",
+  "type": "commonjs"
+}
