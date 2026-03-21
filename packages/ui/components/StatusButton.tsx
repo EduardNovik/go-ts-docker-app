@@ -4,7 +4,7 @@ export const StatusButton = () => {
 const [status, setSattus] = useState('')
 
     const getStatus = () => {
-        fetch('http://localhost:8080').then((data)=>
+        fetch('http://localhost:8080/get').then((data)=>
            data.text()
         ).then(data => setSattus(data))
     }
