@@ -6,6 +6,7 @@ export const PostButton = () => {
 
   const postStatus = async () => {
     const res = await fetch('/api/post', {
+
       method: 'POST',
       headers: {
         'Content-Type': 'text/plain',
