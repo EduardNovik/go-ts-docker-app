@@ -18,17 +18,15 @@ export const PostButton = () => {
   }
 
   return (
-    <>
+    <div style={{display:'flex', flexDirection:'column', gap:'8px'}}>
       <input
         value={data}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setData(e.target.value)
         }
       />
-
-      <button onClick={postStatus}>Post status</button>
-
+        <button onClick={postStatus}>Post status</button>
       <p>{status}</p>
-    </>
+    </div>
   )
 }
