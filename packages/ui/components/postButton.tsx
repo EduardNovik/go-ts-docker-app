@@ -5,7 +5,7 @@ export const PostButton = () => {
   const [status, setStatus] = useState('')
 
   const postStatus = async () => {
-    const res = await fetch('http://localhost:8080/post', {
+    const res = await fetch('/api/post', {
       method: 'POST',
       headers: {
         'Content-Type': 'text/plain',

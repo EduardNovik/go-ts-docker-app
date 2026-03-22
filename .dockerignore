@@ -1,0 +1,13 @@
+.gitignore
+.git
+.eslintrs.js
+.npmrc
+README.md
+.vscode
+# For nested .turbo
+.turbo
+**/turbo
+# For nested node_modules 
+node_modules
+**/node_modules
+Dockerfile
